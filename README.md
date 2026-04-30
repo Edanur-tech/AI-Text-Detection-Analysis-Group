@@ -1,1 +1,1 @@
-# AI-Text-Detection-Analysis-Group
+# AI-Text-Detection-Analysis
