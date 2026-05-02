@@ -29,6 +29,29 @@ Bu çalışmada aşağıdaki temel kütüphaneler kullanılmıştır:
 4. src: preprocessing.py, feature_extraction.py, train_model.py, evaluate_model.py dosyaları yer almaktadır.
 5. requirements.txt: Bu dosya gerekli kütüphaneleri içermektedir.
 
+
+## Projeyi Çalıştırma Talimatları
+Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Depoyu klonlayın veya indirin:
+   GitHub üzerinden projeyi kendi bilgisayarınıza indirin.
+2. Gerekli Kütüphaneleri Yükleyin:
+   Terminal veya komut satırını açarak proje dizinine gidin ve şu komutu çalıştırın:
+   pip install -r requirements.txt
+   Bu komut; pandas, scikit-learn, lime, nltk ve matplotlib gibi gerekli tüm paketleri otomatik olarak yükleyecektir.
+3. Google Drive Bağlantısı:
+   Dosyalar Google Drive üzerinden veri okuyup yazdığı için, her dosyanın başındaki şu kısmın çalıştığından emin olun:
+   from google.colab import drive
+   drive.mount('/content/drive')
+4. Aşamaları Sırasıyla Çalıştırın:
+   Proje modüler bir yapıda olduğu için dosyaları şu sıra ile çalıştırmalısınız:
+
+   1. Preprocessing: Veri temizleme ve ön işleme adımları için ilgili dosyayı çalıştırın.(preprocessing.py)
+   2. Feature Extraction: Metinlerin sayısallaştırılması için ilgili dosyayı çalıştırın.(feature_extraction.py)
+   3. Model Training: Modellerin eğitilmesi ve joblib ile kaydedilmesi için eğitim dosyasını çalıştırın.(train_model.py)
+   5. Evaluation: Başarı metriklerini ve grafiklerini görmek için değerlendirme dosyasını çalıştırın.(evaluate_model.py)
+   7. LIME Analysis: Model kararlarının detaylı açıklamaları için LIME dosyasını çalıştırın.(optional_advanced_componend.py)
+
 ## Model Performans Sonuçları
 
 Eğitilen modellerin test seti üzerindeki başarı oranları aşağıdaki gibidir:
