@@ -26,7 +26,7 @@ Bu çalışmada aşağıdaki temel kütüphaneler kullanılmıştır:
 1. data: dataset_sample.csv dosyasının içermektedir. Bu dosya kullanılan ve oldukça büyük olan veri setinin sınıf bazlı eşit örnek olacak şekilde bir alt kümesidir.
 2. notebooks: exploration.ipynb dosyasını içermektedir. Bu dosyada veri seti analizi gerçekleştirilmiştir.
 3. results: Sonuç görselleri (confusion matrix, precision-recall grafiği, model performans tablosu, vb.) yer almaktadır.
-4. src: preprocessing.py, feature_extraction.py, train_model.py, evaluate_model.py dosyaları yer almaktadır.
+4. src: preprocessing.py, feature_extraction.py, train_model.py, evaluate_model.py, optional_advanced_component.py dosyaları yer almaktadır.
 5. requirements.txt: Bu dosya gerekli kütüphaneleri içermektedir.
 
 
@@ -50,7 +50,7 @@ Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleyi
    2. Feature Extraction: Metinlerin sayısallaştırılması için ilgili dosyayı çalıştırın.(feature_extraction.py)
    3. Model Training: Modellerin eğitilmesi ve joblib ile kaydedilmesi için eğitim dosyasını çalıştırın.(train_model.py)
    5. Evaluation: Başarı metriklerini ve grafiklerini görmek için değerlendirme dosyasını çalıştırın.(evaluate_model.py)
-   7. LIME Analysis: Model kararlarının detaylı açıklamaları için LIME dosyasını çalıştırın.(optional_advanced_componend.py)
+   7. LIME Analysis: Model kararlarının detaylı açıklamaları için LIME dosyasını çalıştırın.(optional_advanced_component.py)
 
 ## Model Performans Sonuçları
 
