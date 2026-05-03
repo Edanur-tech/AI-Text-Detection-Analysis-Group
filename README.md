@@ -51,7 +51,7 @@ Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleyi
    2. Feature Extraction: Metinlerin sayısallaştırılması için ilgili dosyayı çalıştırın.(feature_extraction.py)
    3. Model Training: Modellerin eğitilmesi ve joblib ile kaydedilmesi için eğitim dosyasını çalıştırın.(train_model.py)
    5. Evaluation: Başarı metriklerini ve grafiklerini görmek için değerlendirme dosyasını çalıştırın.(evaluate_model.py)
-   7. Feature Importance,LIME and Error Analysis: Modelin yüksek seviye değerlendirmesini görmek için çalıştırın.(optional_advanced_component.py)
+   7. Explanable and Error Analysis: Modelin karar verme mekanizmasını anlamak (LIME, Feature Importance) ve modelin yanıldığı noktaları tespit etmek için çalıştırın.(optional_advanced_component.py)
 
 ## Model Performans Sonuçları
 
