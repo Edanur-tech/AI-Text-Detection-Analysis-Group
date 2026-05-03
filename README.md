@@ -73,7 +73,7 @@ En yüksek doğruluk elde edilen Linear SVM modeli üzerinde gerçekleştirilen 
 
 Modeller için ayrı ayrı ve ortak bir hata analizi gerçekleştirilmiştir. Aşağıdaki görselde üç modelin ortak hata analizi gösterilmiştir:
 
-![Modellerin Ortan Hata Analizi Örneği](results/figures/öznitelik_analizi.png)
+![Modellerin Ortan Hata Analizi Örneği](results/figures/modeller_ortak_hata_analizi.png)
 
 ## Model Açıklanabilirlik (LIME)
 
