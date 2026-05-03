@@ -10,7 +10,7 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-"""-------------- 1. Feature Extraction Analysis (Öznitelik Çıkarımı) --------------"""
+"""-------------- 1. Feature Importance Analysis (Özellik Önemi Analizi) --------------"""
 
 import joblib
 import matplotlib.pyplot as plt
