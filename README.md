@@ -67,7 +67,7 @@ Eğitilen modellerin test seti üzerindeki başarı oranları aşağıdaki gibid
 
 En yüksek doğruluk elde edilen Linear SVM modeli üzerinde gerçekleştirilen öznitelik analizi ile modelin bir metne AI ve Human demesinde en çok etkili olan kelimeler incelenmiştir. Aşağıdaki görselde kelimeler sıralanmıştır:
 
-![Özellik Önemi Analizi Örneği](results/figures/öznitelik_analizi.png)
+![Özellik Önemi Analizi Örneği](results/figures/oznitelik_analizi.png)
 
 ## Model Hata Analizi
 
