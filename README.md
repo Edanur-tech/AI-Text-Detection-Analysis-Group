@@ -60,7 +60,7 @@ Eğitilen modellerin test seti üzerindeki başarı oranları aşağıdaki gibid
 | Model | Accuracy | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
 | Logistic Regression | %99,59 | %99,62 | %99,49 | %99,59 |
-| Naive Bayes | %97,14 | %97,09 | %96,76 | %96,92 |
+| Multinomial Naive Bayes | %97,14 | %97,09 | %96,76 | %96,92 |
 | **Linear SVM (En İyi)** | **%99,90** | **%99,91** | **%99,87** | **%99,89** |
 
 ## Model Özellik Önemi Analizi
